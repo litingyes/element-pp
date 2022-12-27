@@ -1,0 +1,22 @@
+{
+  "name": "@element-pp/play",
+  "type": "module",
+  "version": "0.0.0",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "element-pp": "workspace:^0.0.0",
+    "vue": "^3.2.45"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0"
+  }
+}
