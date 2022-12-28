@@ -1,6 +1,16 @@
 {
   "version": "0.0.1",
   "private": false,
+  "description": "a enhance about element-plus",
+  "author": "liting-yes <luz.liting@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/liting-yes/element-pp/tree/main/packages/element-pp#readme",
+  "keywords": [
+    "vue",
+    "element-plus",
+    "ui",
+    "element-pp"
+  ],
   "workspaces": [
     "./packages/*"
   ],
