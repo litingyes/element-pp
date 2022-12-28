@@ -1,16 +1,21 @@
 {
   "name": "@element-pp/docs",
   "version": "0.0.0",
+  "private": false,
   "description": "",
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "keywords": [],
   "main": "index.js",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "element-pp": "workspace:^0.0.0"
+    "element-pp": "0.0.0"
   },
   "devDependencies": {
     "vitepress": "1.0.0-alpha.33"

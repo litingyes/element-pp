@@ -2,18 +2,23 @@
   "name": "@element-pp/play",
   "type": "module",
   "version": "0.0.0",
+  "private": false,
   "description": "",
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "keywords": [],
   "main": "index.js",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
-    "element-pp": "workspace:^0.0.0",
+    "element-pp": "0.0.0",
     "vue": "^3.2.45"
   },
   "devDependencies": {
