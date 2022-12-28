@@ -1,7 +1,8 @@
 {
   "name": "@element-pp/play",
   "type": "module",
-  "version": "0.0.0",
+  "version": "0.0.1",
+  "private": false,
   "description": "",
   "author": "",
   "license": "ISC",
@@ -13,7 +14,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "element-pp": "workspace:^0.0.0",
+    "element-pp": "0.0.1",
     "vue": "^3.2.45"
   },
   "devDependencies": {

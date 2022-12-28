@@ -1,6 +1,7 @@
 {
   "name": "element-pp",
-  "version": "0.0.0",
+  "version": "0.0.1",
+  "private": false,
   "description": "",
   "author": "",
   "license": "MIT",
@@ -8,6 +9,6 @@
   "main": "index.js",
   "scripts": {},
   "dependencies": {
-    "@element-pp/components": "workspace:^0.0.0"
+    "@element-pp/components": "0.0.1"
   }
 }

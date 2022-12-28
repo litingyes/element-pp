@@ -13,6 +13,6 @@
     "skipLibCheck": true,
     "noEmit": true
   },
-  "include": ["*.ts", "*.d.ts", "*.tsx", "*.vue", "play/vite.config.ts"],
-  "references": [{ "path": "./tsconfig.node.json" }]
+  "include": ["packages", "scripts"],
+  "exclude": ["node_modules"]
 }
