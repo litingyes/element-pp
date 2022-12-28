@@ -7,6 +7,10 @@
   "license": "MIT",
   "keywords": [],
   "main": "index.js",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
   "scripts": {},
   "dependencies": {
     "@element-pp/components": "0.0.1"
