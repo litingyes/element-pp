@@ -1,5 +1,6 @@
 {
   "name": "@element-pp/components",
+  "type": "module",
   "version": "0.0.1",
   "private": false,
   "description": "a enhance about element-plus",
@@ -12,15 +13,14 @@
     "ui",
     "element-pp"
   ],
-  "main": "index.js",
+  "main": "index.ts",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "devDependencies": {
-    "element-plus": "^2.2.27"
+  "scripts": {},
+  "dependencies": {
+    "@element-pp/utils": "workspace:^0.0.1",
+    "element-plus": "^2.2.28"
   }
 }

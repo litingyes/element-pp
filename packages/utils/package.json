@@ -1,24 +1,27 @@
 {
-  "name": "element-pp",
+  "name": "@element-pp/utils",
   "version": "0.0.1",
+  "type": "module",
   "private": false,
   "description": "a enhance about element-plus",
   "author": "liting-yes <luz.liting@gmail.com>",
   "license": "MIT",
-  "homepage": "https://github.com/liting-yes/element-pp/tree/main/packages/element-pp#readme",
+  "homepage": "https://github.com/liting-yes/element-pp/tree/main/packages/utils#readme",
   "keywords": [
     "vue",
     "element-plus",
     "ui",
     "element-pp"
   ],
-  "main": "index.js",
+  "main": "index.ts",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
   },
-  "scripts": {},
   "dependencies": {
-    "@element-pp/components": "0.0.1"
+    "date-fns": "^2.29.3"
+  },
+  "devDependencies": {
+    "chalk": "^5.2.0"
   }
 }

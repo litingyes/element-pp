@@ -22,7 +22,9 @@
     "prepare": "husky install",
     "commit": "git-cz",
     "release": "node scripts/release.js",
-    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
+    "play:dev": "pnpm run --filter play dev",
+    "utils-build:locales": "pnpm run --filter utils build:locales"
   },
   "dependencies": {
     "vue": "^3.2.45"
@@ -32,6 +34,7 @@
     "@commitlint/cli": "^17.3.0",
     "@commitlint/config-conventional": "^17.3.0",
     "@commitlint/cz-commitlint": "^17.3.0",
+    "@types/node": "^18.11.18",
     "@vitejs/plugin-vue": "^4.0.0",
     "chalk": "4",
     "commitizen": "^4.2.6",

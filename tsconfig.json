@@ -11,8 +11,9 @@
     "esModuleInterop": true,
     "lib": ["ESNext", "DOM"],
     "skipLibCheck": true,
-    "noEmit": true
+    "noEmit": true,
+    "types": ["node"]
   },
-  "include": ["packages", "scripts"],
+  "include": ["packages/**/*", "scripts/*"],
   "exclude": ["node_modules"]
 }
