@@ -1,7 +1,7 @@
 {
   "name": "@element-pp/components",
   "type": "module",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "private": false,
   "description": "a enhance about element-plus",
   "author": "liting-yes <luz.liting@gmail.com>",
@@ -20,7 +20,7 @@
   },
   "scripts": {},
   "dependencies": {
-    "@element-pp/utils": "workspace:^0.0.1",
+    "@element-pp/utils": "0.1.0",
     "element-plus": "^2.2.28"
   }
 }

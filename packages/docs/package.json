@@ -1,6 +1,6 @@
 {
   "name": "@element-pp/docs",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "private": false,
   "description": "a enhance about element-plus",
   "author": "liting-yes <luz.liting@gmail.com>",
@@ -21,7 +21,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "element-pp": "0.0.1"
+    "element-pp": "0.1.0"
   },
   "devDependencies": {
     "vitepress": "1.0.0-alpha.33"

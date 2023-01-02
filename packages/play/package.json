@@ -1,7 +1,7 @@
 {
   "name": "@element-pp/play",
   "type": "module",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "private": false,
   "description": "a enhance about element-plus",
   "author": "liting-yes <luz.liting@gmail.com>",
@@ -24,8 +24,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@element-pp/utils": "workspace:^0.0.1",
-    "element-pp": "0.0.1",
+    "@element-pp/utils": "0.1.0",
+    "element-pp": "0.1.0",
     "vue": "^3.2.45"
   },
   "devDependencies": {

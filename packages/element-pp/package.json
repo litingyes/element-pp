@@ -1,6 +1,6 @@
 {
   "name": "element-pp",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "private": false,
   "description": "a enhance about element-plus",
   "author": "liting-yes <luz.liting@gmail.com>",
@@ -19,6 +19,6 @@
   },
   "scripts": {},
   "dependencies": {
-    "@element-pp/components": "0.0.1"
+    "@element-pp/components": "0.1.0"
   }
 }
