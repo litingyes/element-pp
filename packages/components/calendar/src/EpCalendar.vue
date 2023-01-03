@@ -2,7 +2,7 @@
  * @Date: 2022-12-28 23:48:51
  * @Author: liting luz.liting@gmail.com
  * @LastEditors: liting luz.liting@gmail.com
- * @LastEditTime: 2023-01-04 00:27:07
+ * @LastEditTime: 2023-01-04 00:43:22
  * @FilePath: /element-pp/packages/components/calendar/src/EpCalendar.vue
 -->
 <script lang="ts" setup>
@@ -53,8 +53,8 @@ const events = computed(() => {
 
   if (props.mode === 'week') {
     props.data.forEach((d) => {
-      const eventItem: EventItem = Object.assign({}, d)
       for (let i = 0; i < 7; i++) {
+        const eventItem: EventItem = Object.assign({}, d)
         const range = dayScope.value[i]
         if (!eventItem.end || range[0] >= eventItem.end! || !eventItem.start || range[1] <= eventItem.start!) continue
         if (range[0] <= eventItem.start && range[1] >= eventItem.end) {
