@@ -2,9 +2,22 @@
  * @Date: 2023-01-02 21:01:16
  * @Author: liting luz.liting@gmail.com
  * @LastEditors: liting luz.liting@gmail.com
- * @LastEditTime: 2023-01-02 23:30:07
+ * @LastEditTime: 2023-01-04 00:27:22
  * @FilePath: /element-pp/packages/components/calendar/src/EpCalendarWeek.vue
 -->
+<script lang="ts" setup>
+import { dateFormat } from '@element-pp/utils'
+import type { EventItem } from '@element-pp/utils'
+import { ElPopover } from 'element-plus'
+
+interface Props {
+  events: EventItem[][]
+}
+const props = withDefaults(defineProps<Props>(), {
+  events: () => [],
+})
+</script>
+
 <template>
   <ul class="ep-calendar__week">
     <li v-for="i in 7" :key="i" class="ep-calendar__week-day">
@@ -31,16 +44,3 @@
     </li>
   </ul>
 </template>
-
-<script lang="ts" setup>
-import { dateFormat } from '@element-pp/utils'
-import type { EventItem } from '@element-pp/utils'
-import { ElPopover } from 'element-plus'
-
-interface Props {
-  events: EventItem[][]
-}
-const props = withDefaults(defineProps<Props>(), {
-  events: () => [],
-})
-</script>

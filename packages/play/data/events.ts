@@ -2,7 +2,7 @@
  * @Date: 2023-01-02 19:26:42
  * @Author: liting luz.liting@gmail.com
  * @LastEditors: liting luz.liting@gmail.com
- * @LastEditTime: 2023-01-02 22:07:55
+ * @LastEditTime: 2023-01-04 00:12:58
  * @FilePath: /element-pp/packages/play/data/events.ts
  */
 export const time = 1672659033850
@@ -16,11 +16,16 @@ export const events = [
   {
     start: 1672655698715,
     end: 1672659317759,
-    title: '吃饭中……',
+    title: '吃饭中……吃饭中……吃饭中……吃饭中……吃饭中……吃饭中……吃饭中……吃饭中……吃饭中……吃饭中……',
   },
   {
     start: 1672659230455,
     end: 1672661015636,
     title: '吃了饭点困了',
+  },
+  {
+    start: 1672673433850,
+    end: 1672687833850,
+    title: '跨天会议',
   },
 ]
