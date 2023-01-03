@@ -78,15 +78,22 @@
   box-sizing: border-box;
   padding: 2px;
   cursor: pointer;
+  width: 90%;
 }
 
 .ep-calendar .ep-calendar__week--event:hover {
   background: #60a5fa;
+  z-index: 99;
 }
 
 .ep-calendar .ep-calendar__week--event-title {
+  display: inline-block;
+  width: 100%;
   font-size: 14px;
   font-weight: bold;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .ep-calendar__week--event-popover {
